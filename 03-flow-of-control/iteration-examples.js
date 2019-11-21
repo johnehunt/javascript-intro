@@ -3,8 +3,8 @@
 
 console.log('-------- Basic For loop -----------');
 
-// Basic for loop
-for (var i = 0; i < 6; i++) {
+// Basic for loop - note use of let not var
+for (let i = 0; i < 6; i++) {
   console.log(i);
 }
 
@@ -12,14 +12,14 @@ console.log('------ For in an array -------------');
 
 // For a set of values in an array
 var data = [1, 2, 3, 4];
-for (i in data) {
+for (let i in data) {
   console.log(i);
 }
 
 console.log('------- for of elements in an array ------------');
 
 // Alternatively can use of with arays
-for (i of data) {
+for (let i of data) {
   console.log(i);
 }
 
@@ -44,8 +44,8 @@ do {
 console.log('------ can nest loops -------------');
 
 // Can nest loops
-for (var i = 0; i < 6; i++) {
-  for (var j = 0; j < 6; j++) {
+for (let i = 0; i < 6; i++) {
+  for (let j = 0; j < 6; j++) {
     console.log("i * j =", i * j);
   }
 }
@@ -53,7 +53,7 @@ for (var i = 0; i < 6; i++) {
 console.log('------- can break out of a loop ------------');
 
 // Can also break out of a loop
-for (var i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
   if (i == 3) break;
   console.log(i);
 }
@@ -61,7 +61,7 @@ for (var i = 0; i < 6; i++) {
 console.log('------- can continue a loop ------------');
 
 // Can also choose to continue to the next iteration
-for (var i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
   if (i == 3) continue;
   console.log(i);
 }
@@ -69,8 +69,8 @@ for (var i = 0; i < 6; i++) {
 console.log('------- can label statements an break ------------');
 
 // Can label statements and break to the label
-outer: for (var i = 0; i < 6; i++) {
-  for (var j = 0; j < 6; j++) {
+outer: for (let i = 0; i < 6; i++) {
+  for (let j = 0; j < 6; j++) {
     if (j == 3) break outer;
     console.log("i * j =", i * j);
   }
@@ -79,8 +79,8 @@ outer: for (var i = 0; i < 6; i++) {
 console.log('------- can label statements and continue ------------');
 
 // Can label statements and continue with the label
-outer: for (var i = 0; i < 6; i++) {
-    for (var j = 0; j < 6; j++) {
+outer: for (let i = 0; i < 6; i++) {
+    for (let j = 0; j < 6; j++) {
       if (j == 3) continue outer;
       console.log("i * j =", i * j);
     }
