@@ -8,21 +8,6 @@ for (let i = 0; i < 6; i++) {
   console.log(i);
 }
 
-console.log('------ For in an array -------------');
-
-// For a set of values in an array
-var data = [1, 2, 3, 4];
-for (let i in data) {
-  console.log(i);
-}
-
-console.log('------- for of elements in an array ------------');
-
-// Alternatively can use of with arays
-for (let i of data) {
-  console.log(i);
-}
-
 console.log('------- simple while loop ------------');
 
 // A simple while loop

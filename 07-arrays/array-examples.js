@@ -8,18 +8,6 @@ console.log('brands:', brands);
 var fruit = new Array('Banna', 'Apple', 'Raspberry'); // Available but considered bad style
 console.log('fruit:', fruit);
 
-// iterating over the values in an array
-for (let i = 0; i< brands.length; i++) {
-    console.log(brands[i]);
-}
-
-for (brand of brands) {
-    console.log('brand:', brand);
-}
-
-// Apply a function to each element in an array
-brands.forEach((e) => console.log(e.toUpperCase()));
-
 console.log('brands[0]:', brands[0]);
 
 console.log('Modify array element wiht index 0');
