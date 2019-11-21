@@ -1,46 +1,55 @@
 // This is a comment 
 
-var count = 1; // Variable storing a numeric integer value
-var total = 42.6 // Vaeriable holding a numeric floating point number
+var count = 1; // Variable called count storing a numeric integer value
+var total = 42.6; // Vaeriable holding a numeric decimal number
 var name = 'Jasmine'; // Variable storing a string
-var x; // a declared variable but without an assigned value
+var flag = true; // Variable holding a boolean value true
+var age; // a declared variable but without an assigned value
 
-console.log(count);
-console.log(total);
-console.log(name);
-console.log('age:', x); 
+console.log('count:', count);
+console.log('total:', total);
+console.log('name:', name);
+console.log('age:', age); 
 
-x = 55;
-console.log('age now is:', x);
+age = 55;
+console.log('age now is:', age);
 
-var start = 1, role = 'Writer'; // Declaring multiple variables
-console.log(start);
-console.log(role);
+// Type Operator
+console.log('typeof count:', typeof count ); // type of the value held in count - number
+console.log('typeof total:', typeof total ); // type held in total - number
+console.log('typeof flag:', typeof flag ); // type of the value held in flag1
+console.log('typeof name:', typeof name ); // type of the value held in name
 
-function printRole() {
-    console.log(role); // accesses a global function
-}
+// Type is dynamic - it can change
+var myvar;           // Now myvar is undefined
+myvar = 5;           // Now myvar is a Number
+myvar = "John";      // Now myvar is a String
 
-printRole();
+var start = 1, role = 'Writer'; // Declaring multiple variables in one go
+console.log('start:', start, ', role:', role);
 
-function printIt() {
-    var age = 21; // variable that is local to a function
-    console.log(age);
-}
-
-printIt();
-// console.log(age); can't acce3ss age here - it is not defined
-
-var window = {title: "host"}
-
-function addToGlobal() {
-    window.value = 42; // Sets a variable on the window object which is gloabl
-    console.log(window);
-}
-addToGlobal();
-
-console.log(window.value); // can access this 
+// Integers are accurate up to 15 digits.
+var x = 999999999999999;   // x will be 999999999999999
+console.log('x:', x);
+var y = 9999999999999999;  // y will be 10000000000000000
+console.log('y:', y);
 
 // Strings are written as text within double or single quotes
-var name1 = "John"
-var name2 = 'John'
+var name1 = "John";
+console.log('name1:', name1);
+var name2 = 'John';
+console.log('name2:', name2);
+
+var longString = "They said 'Hello'"; // single quotes inside double
+console.log('LongString:', longString)
+longString = 'They said "Hello"'; // double quotes inside single
+console.log('LongString:', longString)
+
+// null represents nothingness - as opposed to undefined
+var project = null;
+console.log('project = null: ', project);
+// can also set to undefined
+project = undefined;
+console.log('project = null: ', undefined);
+// Are logical equal
+console.log(null == undefined)
