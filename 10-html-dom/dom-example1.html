@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function hello() {
+                document.getElementById("demo").innerHTML = "Hello World!";  
+            }
+            function wellDone() {
+                document.getElementsByTagName("p")[0].innerHTML = "Well Done";  
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Simple JavaScript Hello World</h2>
+        <p id="demo">This is place holder</p>
+        <form>
+            <input type="button" value="say hello" onclick="hello()" />
+            <input type="button" value="say well done" onclick="wellDone()" />
+        </form>
+    </body>
+</html>
