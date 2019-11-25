@@ -53,3 +53,7 @@ project = undefined;
 console.log('project = null: ', undefined);
 // Are logical equal
 console.log(null == undefined)
+
+// JavaScript also supports the idea of a constant
+const MAX_NUMBER = 100;
+// MAX_NUMBER = 200; // Can;t reassign a value once it is set
