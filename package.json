@@ -4,6 +4,7 @@
   "description": "An introductory course for JavaScript",
   "main": "index.js",
   "dependencies": {
+    "jquery": "^3.4.1",
     "node": "^13.1.0"
   },
   "devDependencies": {
