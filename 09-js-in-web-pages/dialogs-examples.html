@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function showDialogs() {
+            console.log('in showDialogs');
+            var total = prompt("Please enter total");
+            var ok = confirm('Are you sure you want ' + total);
+            console.log('ok:', ok);
+            if (ok) {
+              alert('You entered ' + total);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Simple Dialogs Example</h2>
+    <form>
+        <input type="button" value="Enter" onclick="showDialogs()" />
+    </form>
+</body>
+
+</html>
+</body>
