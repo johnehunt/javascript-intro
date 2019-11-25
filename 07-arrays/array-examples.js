@@ -14,8 +14,9 @@ console.log('Modify array element wiht index 0');
 brands[0] = 'Ford';
 console.log('brands[0]:', brands[0]);
 
-// Adding to an array
-brands.push('Jaguar');
+console.log('Deleting array elements');
+console.log('brands:', brands);
+delete brands[1];
 console.log('brands:', brands);
 
 // Mixed type arrays
