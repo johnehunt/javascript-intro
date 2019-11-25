@@ -1,0 +1,51 @@
+root { 
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: white;
+    color: black;
+    font-style: normal;
+}
+.title { color: blue;
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 18px;
+}
+.mailto {
+    font-family: 'Courier New',Courier,monospace;
+    background-color: green;
+    font-size: 18px;
+    text-align: left;
+}
+.hover {
+    cursor: pointer;
+}
+.button {
+    background-color: fuchsia;
+    background-position: center center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-color: navy;
+    border-bottom-color: navy;
+    border-left-color: navy;
+    border-right-color: navy;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    vertical-align: middle;
+}
