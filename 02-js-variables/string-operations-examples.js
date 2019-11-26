@@ -26,6 +26,10 @@ console.log('name.substr(2, 6):', name.substr(2, 6));
 console.log('name.substr(2):', name.substr(2)); // slices to end of string
 console.log('name.substr(-2):', name.substr(-2)); // counts from end backwards
 
+// Extracting individual characters
+console.log('name.charAt(3):', name.charAt(3));
+console.log('name.charCodeAt(3):', name.charCodeAt(3));
+
 // Replacing String content
 console.log('name.replace("Davies", "Smith"):', name.replace("Davies", "Smith"));
 // Above returns a new string - doesn't affect original string
@@ -35,16 +39,12 @@ console.log('name:', name);
 console.log('name.toUpperCase():', name.toUpperCase());
 console.log('name.toLowerCase():', name.toLowerCase());
 
-// Trim operator - removes white space
-var location = '     London    ';
-console.log('location:', location);
-console.log('location.trim():', location.trim()); // Not supported by IE 8 or below
-
-// Extracting individual characters
-console.log('name.charAt(3):', name.charAt(3));
-console.log('name.charCodeAt(3):', name.charCodeAt(3));
-
 // Convert a number to a string
 var x = 123;
 var y = 456;
 console.log('x.toString() + y.toString():', x.toString() + y.toString());
+
+// Trim operator - removes white space
+var location = '     London    ';
+console.log('location:', location);
+console.log('location.trim():', location.trim()); // Not supported by IE 8 or below
