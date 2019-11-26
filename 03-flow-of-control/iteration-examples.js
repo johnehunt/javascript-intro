@@ -4,6 +4,8 @@
 console.log('-------- Basic For loop -----------');
 
 // Basic for loop - note use of let not var
+// Let introduced in ES6 - so older programs may use var
+// Note difference in scope of let
 for (let i = 0; i < 6; i++) {
   console.log(i);
 }

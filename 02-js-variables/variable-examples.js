@@ -55,5 +55,6 @@ console.log('project = null: ', undefined);
 console.log(null == undefined)
 
 // JavaScript also supports the idea of a constant
+// Introduced in ES 6
 const MAX_NUMBER = 100;
 // MAX_NUMBER = 200; // Can;t reassign a value once it is set

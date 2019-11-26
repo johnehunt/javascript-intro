@@ -4,21 +4,23 @@
   "description": "An introductory course for JavaScript",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "node": "^13.1.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "jasmine": "^3.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnehunt/javascript-intro.git"
   },
-  "author": "",
+  "author": "John Hunt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/johnehunt/javascript-intro/issues"

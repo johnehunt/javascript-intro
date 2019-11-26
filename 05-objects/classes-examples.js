@@ -1,4 +1,5 @@
 // Example of defining classes in JavaScript
+// Classes introduced in ES6 - previously had to use prototype form
 
 class Person {
   constructor(name, age) {
