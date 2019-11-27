@@ -3,7 +3,7 @@
 // Function can access global variable
 var role = 'Writer';
 function printRole() {
-    console.log('role inside function:', role); // accesses a global function
+    console.log('role inside function:', role); // accesses a global variable
 }
 
 printRole();
@@ -28,7 +28,7 @@ addToGlobal();
 
 console.log('window:', window); // can access this 
 
-// Block Scope - prior to ES2015 JavaScript did not have a block scope
+// Block Scope - prior to ES6 / ES2015 JavaScript did not have a block scope
 // But now has let keyword to define a block scoped variable
 function myNewFunction() {
    // flag not available here
