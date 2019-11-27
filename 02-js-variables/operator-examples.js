@@ -27,6 +27,7 @@ console.log('x=', x, ', y=', y);
 console.log('-----------------');
 
 // Assignment Operators
+console.log('x = 5:', x = 5);
 console.log('x =', x);
 console.log('x += 2:', x += 2)
 console.log('x -= 2:', x -= 2)
