@@ -11,6 +11,11 @@ console.log('label1:', label1);
 var label2 = songs.join('; ');
 console.log('label2:', label2);
 
+// Merging Concatenating Arrays
+var edSongs = ['Shape of You', 'Perfect', 'Castle on the Hill'];
+var newSongs = songs.concat(edSongs);
+console.log('newSongs:', newSongs);
+
 // Pop removes the last element from an array
 console.log('songs:', songs);
 console.log('songs.pop()');
@@ -24,7 +29,7 @@ console.log("songs.push(Livin' La Vida Loca)");
 songs.push("'Livin' La Vida Loca");
 console.log('songs:', songs);
 
-// Shift rempoves the first element in the array
+// Shift removes the first element in the array
 console.log('songs:', songs);
 console.log("songs.shift()");
 var song1 = songs.shift();
@@ -43,11 +48,6 @@ console.log('songs:', songs);
 console.log('songs.splice(2, 0, "Hard Day\'s Night", "Help!")')
 songs.splice(2, 0, "Hard Day's Night", "Help!")
 console.log('songs:', songs);
-
-// Merging Concatenating Arrays
-var edSongs = ['Shape of You', 'Perfect', 'Castle on the Hill'];
-var newSongs = songs.concat(edSongs);
-console.log('newSongs:', newSongs);
 
 // Slice an array - slices out a piece of an array
 // Takes 1 or two params - 1st param indicates
