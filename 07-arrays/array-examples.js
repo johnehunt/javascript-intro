@@ -9,8 +9,11 @@ var fruit = new Array('Banna', 'Apple', 'Raspberry'); // Available but considere
 console.log('fruit:', fruit);
 
 console.log('brands[0]:', brands[0]);
+console.log('brands[1]:', brands[1]);
+console.log('brands[2]:', brands[2]);
+console.log('brands[3]:', brands[3]);
 
-console.log('Modify array element wiht index 0');
+console.log('Modify array element with index 0');
 brands[0] = 'Ford';
 console.log('brands[0]:', brands[0]);
 
@@ -25,9 +28,8 @@ console.log('data:', data);
 
 // Array properties
 console.log('brands.length:', brands.length);
-console.log('brands.sort():', brands.sort());
 
 // get the type of an array
-console.log('typeof brans:', typeof brands); // note type is object but consider it an array
+console.log('typeof brands:', typeof brands); // note type is object but consider it an array
 console.log('Array.isArray(brands):', Array.isArray(brands)); // Prints true
 console.log('brands instanceof Array:', brands instanceof Array); // Prints true
