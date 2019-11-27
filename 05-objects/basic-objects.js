@@ -16,7 +16,7 @@ console.log('person:', person)
 // Access object properties
 console.log('person.name is person.age:', person.name, 'is', person.age);
 // alternatively can use [] index notation
-console.log('person.name is person.age:', person['name'], 'is', person['age']);
+console.log("person['name'] is person['age']:", person['name'], 'is', person['age']);
 
 // Objects can have methods - functions that can be called on object
 var person = {
