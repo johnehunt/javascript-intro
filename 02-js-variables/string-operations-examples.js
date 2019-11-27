@@ -9,10 +9,10 @@ console.log('name.lastIndexOf("Davies"):', name.lastIndexOf("Davies"));
 console.log("name.indexOf('Smith'):", name.indexOf('Smith')); // returns -1 if doe snot contain string
 
 // Substrings
-// Take a slice of the string from index 2 upt o but not including index 6
-// Strings are indexed form Zero
+// Take a slice of the string from index 2 up to but not including index 6
+// Strings are indexed from Zero
 console.log('name.slice(2, 6):', name.slice(3, 6)); 
-// If omit send index takes end of string
+// If omit second index takes to end of string
 console.log('name.slice(2):', name.slice(2)); 
 // Can also count from end of String
 console.log('name.slice(-2):', name.slice(-2)); 
@@ -21,7 +21,7 @@ console.log('name.slice(-2):', name.slice(-2));
 console.log('name.substring(2, 6):', name.substring(2, 6));
 console.log('name.substring(2):', name.substring(2));
 
-// And substr() - like slice but 2nd param indictes length of extracted string
+// And substr() - like slice but 2nd param indicates length of extracted string
 console.log('name.substr(2, 6):', name.substr(2, 6));
 console.log('name.substr(2):', name.substr(2)); // slices to end of string
 console.log('name.substr(-2):', name.substr(-2)); // counts from end backwards
