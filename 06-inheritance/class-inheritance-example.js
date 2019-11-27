@@ -14,7 +14,7 @@ class Person {
 
 class Employee extends Person {
   constructor(name, age, id, rate) {
-    super(name, age); // super must be first statement in cons
+    super(name, age); // super must be first statement in constructor
     this.id = id;
     this.rate = rate;
   }
@@ -22,11 +22,32 @@ class Employee extends Person {
     return this.rate * hours;
   }
   toString() {
-    return "Employee(" + super.toString() + ", " + this.id + ", " + this.rate + ")";
+    return (
+      "Employee(" + super.toString() + ", " + this.id + ", " + this.rate + ")"
+    );
   }
 }
 
-employee = new Employee("John", 21, "1223", 8.5);
+var employee = new Employee("John", 21, "1223", 8.5);
 console.log(employee);
-console.log(`${employee}`); 
+console.log(`${employee}`);
 console.log("employee.calculatePay(40):", employee.calculatePay(40));
+
+// Classes in action
+console.log("Person");
+var p = new Person("John", 25);
+console.log(p);
+p.birthday();
+console.log(p.name);
+console.log(p.age);
+
+console.log("---------");
+
+console.log("Employee");
+var e = new Employee("Denise", 51, "VC123", 74.55);
+console.log(e);
+e.birthday();
+console.log(e.name);
+console.log(e.age);
+console.log(e.id);
+console.log("e.calculate_pay(40):", e.calculatePay(40));
