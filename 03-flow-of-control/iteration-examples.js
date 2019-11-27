@@ -1,16 +1,7 @@
 // This file illustrates examples of looping constrcuts
 // specifically for, while and do-while loops
 
-console.log('-------- Basic For loop -----------');
-
-// Basic for loop - note use of let not var
-// Let introduced in ES6 - so older programs may use var
-// Note difference in scope of let
-for (let i = 0; i < 6; i++) {
-  console.log(i);
-}
-
-console.log('------- simple while loop ------------');
+console.log("------- simple while loop ------------");
 
 // A simple while loop
 var i = 0;
@@ -19,16 +10,25 @@ while (i < 6) {
   i++;
 }
 
-console.log('------ simple do while loop -------------');
+console.log("------ simple do while loop -------------");
 
 // A simple do while loop
 i = 0;
 do {
   console.log(i);
   i++;
-} while (i < 10);
+} while (i < 6);
 
-console.log('------ can nest loops -------------');
+console.log("-------- Basic For loop -----------");
+
+// Basic for loop - note use of let not var
+// Let introduced in ES6 - so older programs may use var
+// Note difference in scope of let
+for (let i = 0; i < 6; i++) {
+  console.log(i);
+}
+
+console.log("------ can nest loops -------------");
 
 // Can nest loops
 for (let i = 0; i < 6; i++) {
@@ -37,7 +37,7 @@ for (let i = 0; i < 6; i++) {
   }
 }
 
-console.log('------- can break out of a loop ------------');
+console.log("------- can break out of a loop ------------");
 
 // Can also break out of a loop
 for (let i = 0; i < 6; i++) {
@@ -45,7 +45,7 @@ for (let i = 0; i < 6; i++) {
   console.log(i);
 }
 
-console.log('------- can continue a loop ------------');
+console.log("------- can continue a loop ------------");
 
 // Can also choose to continue to the next iteration
 for (let i = 0; i < 6; i++) {
@@ -53,7 +53,7 @@ for (let i = 0; i < 6; i++) {
   console.log(i);
 }
 
-console.log('------- can label statements an break ------------');
+console.log("------- can label statements and break ------------");
 
 // Can label statements and break to the label
 outer: for (let i = 0; i < 6; i++) {
@@ -63,12 +63,12 @@ outer: for (let i = 0; i < 6; i++) {
   }
 }
 
-console.log('------- can label statements and continue ------------');
+console.log("------- can label statements and continue ------------");
 
 // Can label statements and continue with the label
 outer: for (let i = 0; i < 6; i++) {
-    for (let j = 0; j < 6; j++) {
-      if (j == 3) continue outer;
-      console.log("i * j =", i * j);
-    }
+  for (let j = 0; j < 6; j++) {
+    if (j == 3) continue outer;
+    console.log("i * j =", i * j);
   }
+}
