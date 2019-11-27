@@ -6,6 +6,10 @@ var age = 17;
 console.log('age:', age);
 
 // Simple if statement
+if (age < 18) 
+    console.log('Under 18');
+
+// Better style - with curly brackets
 if (age < 18) {
     console.log('Under 18');
 }
@@ -25,6 +29,19 @@ if (age < 13) {
 } else {
     console.log('Over 20');
 }
+
+// Nested if statements
+var snowing = true;
+temp = -1;
+console.log('-------');
+if (temp < 0) {
+    console.log('It is freezong');
+    if (snowing) {
+        console.log('Put on Boots');
+    }
+    console.log('Time for Hot Chocolate');
+}
+console.log('-------');
 
 // Switch statement - selects code block(s) from alternatives
 switch (age) {
