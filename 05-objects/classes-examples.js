@@ -12,13 +12,20 @@ class Person {
   }
   static hello() {
     console.log("hello");
+    if (this.count === undefined) {
+      this.count = 1;
+    } else {
+      ++this.count;
+    }
   }
   // Define setters and getters for property
   get name() {
-      return this._name;
+    console.log("In getter for name");
+    return this._name;
   }
   set name(n) {
-      this._name = n;
+    console.log("In setter for name with ", n);
+    this._name = n;
   }
   // Override default toString method
   toString() {
@@ -34,10 +41,14 @@ console.log(person2);
 // See outout using a template literal
 // Template literals are string literals allowing embedded expressions
 // Note use of back-ticks
-console.log(`${person1}`); 
+console.log(`${person1}`);
 
 person1.birthday();
-console.log(person1.name)
+console.log(person1.name);
+person1.name = "Bob";
+console.log(person1.name);
 
 Person.hello();
 // person1.hello(); // WOn;t work - statics only on class
+
+console.log(Person.count);
