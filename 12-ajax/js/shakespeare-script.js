@@ -10,10 +10,7 @@ $(document).ready(function() {
   $("#show").click(function() {
     console.log("running ckick on show");
     $.get("http://localhost:3000", function(plays) {
-      console.log(plays);
-
       $("#plays").empty();
-
       $.each(plays, function(i, plays) {
         var html = "<div class='play'>";
         plays.forEach(play => {

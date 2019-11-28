@@ -19,7 +19,7 @@ root {
     cursor: pointer;
 }
 .button {
-    background-color: fuchsia;
+    background-color: gray;
     background-position: center center;
     border-top-style: solid;
     border-bottom-style: solid;
