@@ -1,31 +1,19 @@
 <html>
 
 <head>
-    <script type="text/javascript">
+    <title>Form Example</title>
+    <script>
         function enter() {
-            var options = document.getElementsByName("option");
-            alert('Options: ' + options.length);
-            for (let option of options) {
-                console.log('option: ', option);
-                if (option.checked) {
-                    var value = option.value;
-                    console.log('value:', value);
-                    if (value == 'tea') {
-                        alert('They want Tea');
-                    }
-                }
-            }
+            var name = document.userform.username.value;
+            alert('Hi there: ' + name);
         }
     </script>
 </head>
 
 <body>
-    <h2>Simple JavaScript Hello World</h2>
-    <p id="demo">This is place holder</p>
-    <form name="drinks">
-        Tea: <input type="radio" name="option" value='tea' /> <br />
-        Coffee: <input type="radio" name="option" value='coffee' /> <br />
-        Water: <input type="radio" name="option" value='water' /> <br />
+    <h2>Form Data Example</h2>
+    <form name="userform">
+        <input type="text" name="username" />
         <input type="button" value="Enter" onclick="enter()" />
     </form>
 </body>
