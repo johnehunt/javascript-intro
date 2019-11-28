@@ -1,4 +1,5 @@
 describe("Tesing the functions in myscript", function() {
+
   describe("Testing divideBy(x, y) function", function() {
     it("should return the result (2) of dividing 4 by 2", function() {
       expect(divideBy(4, 2)).toBe(2);
