@@ -1,12 +1,10 @@
 <html>
 
 <head>
-    <script type="text/javascript">
+    <script>
         function enter() {
-            var h3Elements = document.querySelectorAll("h3");
-            console.log(h3Elements);
-            var allHrefs = document.querySelectorAll("a[Href]");
-            console.log(allHrefs);
+            var h3NodeList = document.querySelectorAll("h3");
+            console.log(h3NodeList);
         }
     </script>
 </head>
@@ -15,8 +13,9 @@
     <h2>A H2 Level heading</h2>
     <p>Some text</p>
     <h3>Subheading 1</h3>
-    <p>Some more text with a link to the <a href="https://www.bbc.co.uk/">BBC</a></p>
+    <p>Some more text.</p>
     <h3>Subheading 2</h3>
-    <p>Event more text with a link to <a href="https://www.itv.com/">ITV</a></p>
-    <form><input type="button" value="Click Me" onclick="enter()" /></form>
+    <p>Event more text.</p>
+    <button type="button" onclick="enter()" />Click Me!</button>
 </body>
+</html>
