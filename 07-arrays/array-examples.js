@@ -2,10 +2,10 @@
 // as well as how to access array elements and 
 // loop over those elements
 
-var brands = ["BMW", 'Apple', 'Microsoft', 'BT'];
+let brands = ["BMW", 'Apple', 'Microsoft', 'BT'];
 console.log('brands:', brands);
 
-var fruit = new Array('Banna', 'Apple', 'Raspberry'); // Available but considered bad style
+let fruit = new Array('Banna', 'Apple', 'Raspberry'); // Available but considered bad style
 console.log('fruit:', fruit);
 
 console.log('brands[0]:', brands[0]);
@@ -23,7 +23,7 @@ delete brands[1];
 console.log('brands:', brands);
 
 // Mixed type arrays
-var data = ['John', 55, 23.55, true];
+let data = ['John', 55, 23.55, true];
 console.log('data:', data);
 
 // Array properties
