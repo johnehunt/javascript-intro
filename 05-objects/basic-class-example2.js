@@ -9,8 +9,8 @@ class Person {
   }
 }
 
-var p1 = new Person("John", 36);
-var p2 = new Person("Phoebe", 21);
+let p1 = new Person("John", 36);
+let p2 = new Person("Phoebe", 21);
 
 console.log('p1:', p1);
 console.log('p1.toString():', p1.toString());

@@ -4,7 +4,7 @@ $(document).ready(function() {
     console.log('Running submit');
     $.post("http://localhost:3000", $(this).serialize(), function(play) {
        console.log('In post callback function - ', play);
-       var html = "<div class='play'>";
+       let html = "<div class='play'>";
        html += "<h3 class='title'>" + play.name + "</h3>";
        html += "Written: " + play.date;
        html += "<br>Category: " + play.category;

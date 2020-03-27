@@ -25,7 +25,8 @@ describe("Tesing the functions in myscript", function() {
 
   describe("testing enter() function", function() {
     it("should access the x and y operands of the form and set result to 2", function() {
-      var body = document.getElementsByTagName("body")[0];
+      // Given the test scenario
+      const body = document.getElementsByTagName("body")[0];
       const myform = document.createElement("form");
       myform.name = "myform";
       body.appendChild(myform);
@@ -40,7 +41,9 @@ describe("Tesing the functions in myscript", function() {
       const resultElement = document.createElement("div");
       resultElement.id = "result";
       body.appendChild(resultElement);
+      // When invoke the enter() function
       enter();
+      // Then we can validate the result
       expect(document.getElementById("result").innerHTML).toBe('2');
     });
   });

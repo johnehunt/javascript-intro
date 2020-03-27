@@ -33,8 +33,8 @@ class Person {
   }
 }
 
-person1 = new Person("John", 55);
-person2 = new Person("Denise", 52);
+let person1 = new Person("John", 55);
+let person2 = new Person("Denise", 52);
 
 console.log(person1);
 console.log(person2);
@@ -49,6 +49,6 @@ person1.name = "Bob";
 console.log(person1.name);
 
 Person.hello();
-// person1.hello(); // WOn;t work - statics only on class
+// person1.hello(); // Won'tt work - statics only on class
 
 console.log(Person.count);

@@ -2,7 +2,7 @@
 
 // Create an object to represent a car
 // JavaScript objects act as containers for named values such as properties
-var car = {brand: 'Porsche', model: '911', colour: 'Red'};
+const car = {brand: 'Porsche', model: '911', colour: 'Red'};
 console.log('car:', car);
 
 // Often layout is important

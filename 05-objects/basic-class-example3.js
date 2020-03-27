@@ -26,7 +26,7 @@ class Person {
   }
 }
 
-var p1 = new Person("John", 36);
+let p1 = new Person("John", 36);
 
 p1.birthday();
 

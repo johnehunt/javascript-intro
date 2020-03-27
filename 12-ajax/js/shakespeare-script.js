@@ -12,7 +12,7 @@ $(document).ready(function() {
     $.get("http://localhost:3000", function(plays) {
       $("#plays").empty();
       $.each(plays, function(i, plays) {
-        var html = "<div class='play'>";
+        let html = "<div class='play'>";
         plays.forEach(play => {
           console.log(play);
           html += "<h3 class='title'>" + play.name + "</h3>";

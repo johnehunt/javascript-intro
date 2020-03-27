@@ -74,7 +74,7 @@ function processor(func, x, y) {
   return func(x, y);
 }
 
-var result = processor(
+let result = processor(
   function(a, b) {
     return a + b;
   },

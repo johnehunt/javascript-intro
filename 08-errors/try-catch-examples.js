@@ -6,7 +6,7 @@
 
 // Illustrates use of try-catch and (optional) finally
 
-var userInput = 11;
+let userInput = 11;
 try {
   console.log("Entering try block");
   // Can throw an exception yourself

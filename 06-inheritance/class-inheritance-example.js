@@ -28,14 +28,14 @@ class Employee extends Person {
   }
 }
 
-var employee = new Employee("John", 21, "1223", 8.5);
+let employee = new Employee("John", 21, "1223", 8.5);
 console.log(employee);
 console.log(`${employee}`);
 console.log("employee.calculatePay(40):", employee.calculatePay(40));
 
 // Classes in action
 console.log("Person");
-var p = new Person("John", 25);
+let p = new Person("John", 25);
 console.log(p);
 p.birthday();
 console.log(p.name);
@@ -44,7 +44,7 @@ console.log(p.age);
 console.log("---------");
 
 console.log("Employee");
-var e = new Employee("Denise", 51, "VC123", 74.55);
+let e = new Employee("Denise", 51, "VC123", 74.55);
 console.log(e);
 e.birthday();
 console.log(e.name);

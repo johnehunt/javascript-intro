@@ -20,7 +20,7 @@ app.use(express.urlencoded());
 // Set up the get request processing
 app.get("/", function(req, res) {
   console.log('Handling GET request');
-  var data = {
+  let data = {
     plays: [
       {
         name: "Hamlet",
