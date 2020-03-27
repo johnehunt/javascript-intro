@@ -4,7 +4,7 @@
 console.log("------- simple while loop ------------");
 
 // A simple while loop
-var i = 0;
+let i = 0;
 while (i < 6) {
   console.log(i);
   i++;

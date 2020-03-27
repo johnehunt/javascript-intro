@@ -2,7 +2,7 @@
 // It covers, if, if else, if elseif, and switch
 
 // Change age to see how flow of control changes
-var age = 17;
+let age = 17;
 console.log('age:', age);
 
 // Simple if statement
@@ -31,7 +31,7 @@ if (age < 13) {
 }
 
 // Nested if statements
-var snowing = true;
+let snowing = true;
 temp = -1;
 console.log('-------');
 if (temp < 0) {

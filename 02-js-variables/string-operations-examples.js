@@ -1,6 +1,6 @@
 // Provides a set of exampels for operations on strings
 
-var name = 'Phoebe Davies';
+let name = 'Phoebe Davies';
 console.log('name.length:', name.length);
 
 // Index of methods
@@ -40,11 +40,11 @@ console.log('name.toUpperCase():', name.toUpperCase());
 console.log('name.toLowerCase():', name.toLowerCase());
 
 // Convert a number to a string
-var x = 123;
-var y = 456;
+let x = 123;
+let y = 456;
 console.log('x.toString() + y.toString():', x.toString() + y.toString());
 
 // Trim operator - removes white space
-var location = '     London    ';
+let location = '     London    ';
 console.log('location:', location);
 console.log('location.trim():', location.trim()); // Not supported by IE 8 or below
