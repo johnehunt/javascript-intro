@@ -17,7 +17,7 @@ for (let i in brands) {
 console.log("------- for of elements in an array ------------");
 
 // Iterating over elements in an array
-for (brand of brands) {
+for (let brand of brands) {
   console.log("brand:", brand);
 }
 
