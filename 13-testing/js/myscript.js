@@ -1,15 +1,15 @@
 function enter() {
   // debugger;
   console.log("In enter");
-  var x = document.myform.xoperand.value;
-  var y = document.myform.yoperand.value;
-  var result = divideBy(x, y);
+  let x = document.myform.xoperand.value;
+  let y = document.myform.yoperand.value;
+  let result = divideBy(x, y);
   document.getElementById("result").innerHTML = result;
 }
 
 function checkXoperand() {
   console.log("in check");
-  var x = document.myform.xoperand.value;
+  let x = document.myform.xoperand.value;
   if (isNumeric(x)) {
     console.log("All ok as is a number");
   } else {

@@ -6,7 +6,7 @@ const car = {brand: 'Porsche', model: '911', colour: 'Red'};
 console.log('car:', car);
 
 // Often layout is important
-var person = {
+let person = {
     name: 'John',
     age: 55
 }
@@ -19,7 +19,7 @@ console.log('person.name is person.age:', person.name, 'is', person.age);
 console.log("person['name'] is person['age']:", person['name'], 'is', person['age']);
 
 // Objects can have methods - functions that can be called on object
-var person = {
+let person = {
     name: 'John',
     age: 55,
     birthday: function() {

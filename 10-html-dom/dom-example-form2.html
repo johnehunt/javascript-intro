@@ -3,12 +3,12 @@
 <head>
     <script>
         function enter() {
-            var options = document.getElementsByName("option");
+            let options = document.getElementsByName("option");
             alert('Options: ' + options.length);
             for (let option of options) {
                 console.log('option: ', option);
                 if (option.checked) {
-                    var value = option.value;
+                    let value = option.value;
                     console.log('value:', value);
                     if (value == 'tea') {
                         alert('They want Tea');

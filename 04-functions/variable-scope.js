@@ -1,27 +1,27 @@
-// Illustrates the scope of a variable w.r.t. functions
+// Illustrates the scope of a letiable w.r.t. functions
 
-// Function can access global variable
-var role = 'Writer';
+// Function can access global letiable
+let role = 'Writer';
 function printRole() {
-    console.log('role inside function:', role); // accesses a global variable
+    console.log('role inside function:', role); // accesses a global letiable
 }
 
 printRole();
 
-// Variables declared within a function have Function Scope
+// letiables declared within a function have Function Scope
 // They are only available within the function
 function printIt() {
-    var ageLimit = 21; // variable that is local to a function 
+    let ageLimit = 21; // letiable that is local to a function 
     console.log('ageLimit inside function:', ageLimit);
 }
 
 printIt();
 // console.log(ageLimit); // can't access ageLimit here - it is not defined
 
-var window = {title: "host"}
+let window = {title: "host"}
 
 function addToGlobal() {
-    window.value = 42; // Sets a variable on the window object which is gloabl
+    window.value = 42; // Sets a letiable on the window object which is gloabl
     console.log('window:', window);
 }
 addToGlobal();
@@ -29,7 +29,7 @@ addToGlobal();
 console.log('window:', window); // can access this 
 
 // Block Scope - prior to ES6 / ES2015 JavaScript did not have a block scope
-// But now has let keyword to define a block scoped variable
+// But now has let keyword to define a block scoped letiable
 function myNewFunction() {
    // flag not available here
    console.log('In myNewFunction');
@@ -49,8 +49,8 @@ myNewFunction();
 const MAX = 100;
 console.log('MAX:', MAX);
 
-// X is a variable with value 10 
-var x = 10;
+// X is a letiable with value 10 
+let x = 10;
 {
     // X is 2 and a constant within this block
     const x = 2

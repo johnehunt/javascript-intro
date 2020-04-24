@@ -1,20 +1,20 @@
 // Arrow function examples are listed here
 // Arrow functions were introduced in ES6
 
-var func = () => {
+let func = () => {
     console.log('Hello World');
 }
 
 func();
 
-var func2 = () => console.log('Hello World');
+let func2 = () => console.log('Hello World');
 
 // Arrow functions return a value by defualt
-var hello = () => "Hello World!'";
+let hello = () => "Hello World!'";
 console.log('hello():', hello());
 
 // Arrow fucntions can take parameters
-var printMessage = (message) => {
+let printMessage = (message) => {
     console.log(message);
 }
 printMessage('Hello JavaScript world');

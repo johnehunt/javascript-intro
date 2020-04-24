@@ -1,6 +1,6 @@
 describe("Player", function() {
-  var player;
-  var song;
+  let player;
+  let song;
 
   beforeEach(function() {
     player = new Player();

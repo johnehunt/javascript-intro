@@ -36,8 +36,8 @@ function addTen(i) {
 }
 
 console.log("addTen(5):", addTen(4));
-// # Store result from addTen in a variable
-var result = addTen(5);
+// # Store result from addTen in a letiable
+let result = addTen(5);
 console.log("result = addTen(5):", result);
 // Use the result returned from square in a conditional expression
 if (addTen(3) < 15) {
@@ -48,7 +48,7 @@ console.log("-------");
 
 // Function expression example - define an anonymous function
 // and assign it to a veriable
-var sum = function(x, y) {
+let sum = function(x, y) {
   return x + y;
 };
 
@@ -64,7 +64,7 @@ function square(i) {
 
 console.log("square(5):", square(5));
 
-var doit = square;
+let doit = square;
 console.log("doit(5):", doit(5));
 
 console.log("---- higher order functions ---");
@@ -109,12 +109,12 @@ function createMultipler(x) {
   return multiplier;
 }
 
-var func1 = createMultipler(10);
+let func1 = createMultipler(10);
 console.log(func1); // Does not invoke the function
 console.log("func1(5):", func1(5));
 
-var doubleit = createMultipler(2);
+let doubleit = createMultipler(2);
 console.log('doubleit(5):', doubleit(5));
 
-var trebleit = createMultipler(3);
+let trebleit = createMultipler(3);
 console.log('trebleit(5):', trebleit(5));
