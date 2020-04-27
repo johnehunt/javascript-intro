@@ -24,5 +24,7 @@ printMessage = message => console.log(message);
 
 printMessage('Hello Short Hand world');
 
+let adder = (x, y) => x + y;
 
+console.log(adder(3, 4));
 

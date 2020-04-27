@@ -49,7 +49,7 @@ myNewFunction();
 const MAX = 100;
 console.log('MAX:', MAX);
 
-// X is a letiable with value 10 
+// X is a variable with value 10 
 let x = 10;
 {
     // X is 2 and a constant within this block
