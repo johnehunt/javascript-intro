@@ -11,9 +11,15 @@ root {
 }
 .mailto {
     font-family: 'Courier New',Courier,monospace;
-    background-color: green;
+    background-color: red;
     font-size: 18px;
     text-align: left;
+}
+.even {
+    background-color: green;
+}
+.odd {
+    background-color: lime;
 }
 .hover {
     cursor: pointer;

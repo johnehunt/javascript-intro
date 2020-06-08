@@ -8,7 +8,7 @@ $(document).ready(function() {
     }
   );
   $("#show").click(function() {
-    console.log("running ckick on show");
+    console.log("running click on show");
     $.get("http://localhost:3000", function(plays) {
       $("#plays").empty();
       $.each(plays, function(i, plays) {
