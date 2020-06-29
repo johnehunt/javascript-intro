@@ -1,16 +1,17 @@
 // Arrow function examples are listed here
 // Arrow functions were introduced in ES6
 
-let func = () => {
+let func = () => { 
+    console.log('In here');
     console.log('Hello World');
-}
+};
 
 func();
 
 let func2 = () => console.log('Hello World');
 
 // Arrow functions return a value by defualt
-let hello = () => "Hello World!'";
+let hello = () => "Hello World!";
 console.log('hello():', hello());
 
 // Arrow fucntions can take parameters
