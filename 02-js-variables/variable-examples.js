@@ -29,7 +29,7 @@ mylet = "John";      // Now mylet is a String
 // JavaScript also supports the idea of a constant
 // Introduced in ES 6
 const MAX_NUMBER = 100;
-// MAX_NUMBER = 200; // Can;t reassign a value once it is set
+// MAX_NUMBER = 200; // Can't reassign a value once it is set
 
 // Declaring multiple letiables in one go
 let start = 1, role = 'Writer'; 
