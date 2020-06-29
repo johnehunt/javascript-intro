@@ -20,6 +20,7 @@ function printMessage(message) {
 printMessage("Hello JavaScript World");
 printMessage("Welcome");
 printMessage("Ola");
+printMessage(34);
 
 // Function with multiple parameters
 function printInformation(info1, info2, info3) {
