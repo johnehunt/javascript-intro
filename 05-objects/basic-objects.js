@@ -5,7 +5,7 @@
 const car = {brand: 'Porsche', model: '911', colour: 'Red'};
 console.log('car:', car);
 
-// Often layout is important
+// Often layout is important for human readers only
 let person = {
     name: 'John',
     age: 55
@@ -22,10 +22,14 @@ console.log("person['name'] is person['age']:", person['name'], 'is', person['ag
 let person = {
     name: 'John',
     age: 55,
+    married: true,
+    partner: {name: 'Denise', age: 36},
     birthday: function() {
         this.age = this.age + 1;
         console.log('Happy Birthday, you are now', this.age);
     }
 }
 
+
 person.birthday();
+console.log(person.name);
