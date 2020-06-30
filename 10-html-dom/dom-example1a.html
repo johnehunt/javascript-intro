@@ -2,7 +2,11 @@
     <head>
         <title>DOM Example 1A</title>
         <script>
+            console.log("Setting up function");
             function hello() {
+                console.log("Running hello");
+                let node = document.getElementById("demo");
+                console.log(node);
                 document.getElementById("demo").innerHTML = "Hello World!";  
             }
         </script>
