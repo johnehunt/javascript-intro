@@ -1,6 +1,6 @@
-// Indicates that HavaScript code shoulf be executed in 'strict mode'
+// Indicates that JavaScript code should be executed in 'strict mode'
 // Introduces in ES v 5 - ignored by older versions
-// Ensures better code style - e.g. can;t use undeclared variables
+// Ensures better code style - e.g. can't use undeclared variables
 // support by IE 10 and above, Chrome 13 and above etc.
 "use strict";
 
