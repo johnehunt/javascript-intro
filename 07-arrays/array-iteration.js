@@ -31,13 +31,13 @@ console.log("------- using map ------------");
 
 // map - createa a new array by aplying fucntion to
 // each element in the array
-var lowerCaseBrands = brands.map(e => e.toLowerCase());
+let lowerCaseBrands = brands.map(e => e.toLowerCase());
 console.log("lowerCaseBrands:", lowerCaseBrands);
 
 console.log("------- using filter ------------");
 
 // filter - return all array elements that pass test
-var longNameBrands = brands.filter(e => e.length > 5);
+var longNameBrands = brands.filter(s => s.length > 5);
 console.log("longNameBrands:", longNameBrands);
 
 console.log("------- using reduce ------------");
@@ -47,3 +47,5 @@ const totals = [10, 24, 45, 21, 89, 5];
 console.log("totals;", totals);
 const sum = totals.reduce((total, value) => total + value);
 console.log("sum:", sum);
+
+totals.filter(t => t > 25).forEach(t => console.log(t))
