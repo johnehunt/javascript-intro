@@ -24,7 +24,7 @@ for (let brand of brands) {
 console.log("------- using forEach ------------");
 
 // Apply a function to each element in an array
-// Fp way of doing it
+// FP way of doing it
 brands.forEach(e => console.log(e.toUpperCase()));
 
 console.log("------- using map ------------");
@@ -36,7 +36,7 @@ console.log("lowerCaseBrands:", lowerCaseBrands);
 
 console.log("------- using filter ------------");
 
-// filter - return all array element sthat pass test
+// filter - return all array elements that pass test
 var longNameBrands = brands.filter(e => e.length > 5);
 console.log("longNameBrands:", longNameBrands);
 

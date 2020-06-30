@@ -31,5 +31,5 @@ let p1 = new Person("John", 36);
 p1.birthday();
 
 console.log(p1.isTeenager());
-var formatedName = p1.getFormattedName();
+let formatedName = p1.getFormattedName();
 console.log(formatedName);

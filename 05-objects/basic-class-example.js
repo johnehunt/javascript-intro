@@ -5,6 +5,7 @@ class Person {
     }
 }
 
+// Create instances of class Person
 let p1 = new Person("John", 36);
 let p2 = new Person("Phoebe", 21);
 

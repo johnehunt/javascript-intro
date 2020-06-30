@@ -20,6 +20,6 @@ console.log('P2:', p2);
 console.log('p2.toString():', p2.toString());
 console.log("`${p2}`:", `${p2}`); 
 
-var px = p1;
+let px = p1;
 console.log(p1);
 console.log(px);

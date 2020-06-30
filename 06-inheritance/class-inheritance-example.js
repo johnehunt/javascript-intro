@@ -22,9 +22,8 @@ class Employee extends Person {
     return this.rate * hours;
   }
   toString() {
-    return (
-      "Employee(" + super.toString() + ", " + this.id + ", " + this.rate + ")"
-    );
+    return 
+      "Employee(" + super.toString() + ", " + this.id + ", " + this.rate + ")";
   }
 }
 
