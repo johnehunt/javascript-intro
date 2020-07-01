@@ -3,13 +3,18 @@
   <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      .blue { color: blue; }
+  </style>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script >
         $(document).ready(function() {
+            console.log("Ready");
             $("h1").click(function(){
                 $(this)
                   .hide()
                   .show("slow")
+                  .addClass("blue");
             });
         });
     </script>
@@ -17,5 +22,9 @@
   <body>
     <h1>Welcome</h1>
     <p>This is a plain piece of text.</p>
+    <h1>Another Heading</h1>
+    <p>Another para</p>
+    <h1>A further Heading</h1>
+    <p>A final apra</p>
   </body>
 </html>

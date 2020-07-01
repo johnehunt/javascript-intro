@@ -1,3 +1,17 @@
+
+const jsdom = require("jsdom");
+const dom = new jsdom.JSDOM('<html><head></head><body></body></html>');
+const document = dom.window.document;
+
+function enter() {
+  // debugger;
+  console.log("In enter");
+  let x = document.myform.xoperand.value;
+  let y = document.myform.yoperand.value;
+  let result = divideBy(x, y);
+  document.getElementById("result").innerHTML = result;
+}
+
 describe("Tesing the functions in myscript", function() {
 
   describe("testing enter() function", function() {
@@ -24,5 +38,4 @@ describe("Tesing the functions in myscript", function() {
       expect(document.getElementById("result").innerHTML).toBe('2');
     });
   });
-  
 });
