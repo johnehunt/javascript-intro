@@ -1,10 +1,10 @@
 // Name is a reusable variable
 
 console.log('Hello, world');
-let name = 'John';
-console.log('Hello', name);
-name = 'Denise';
-console.log('Hello', name);
+let user_name = 'John';
+console.log('Hello', user_name);
+user_name = 'Denise';
+console.log('Hello', user_name);
 
 
 let my_variable = 'Jason';
