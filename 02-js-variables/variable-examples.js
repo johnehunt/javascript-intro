@@ -12,7 +12,7 @@ console.log('name:', name);
 console.log('flag:', flag);
 console.log('age:', age); 
 
-age = 55;  // assigning a value to the letiable age
+age = 55;  // assigning a value to the variable age
 console.log('age now is:', age);
 
 // Type Operator - JavaScript is a dynamcially typed langauge
@@ -64,6 +64,6 @@ let project = null;
 console.log('project = null: ', project);
 // can also set to undefined
 project = undefined;
-console.log('project = null: ', undefined);
+console.log('project = null: ', project);
 // Are logical equal
 console.log(null == undefined)
