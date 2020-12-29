@@ -26,6 +26,6 @@ function isNumeric(num) {
 }
 
 // Check to see if running under Node.js for testing
-if (typeof process !== "undefined" && process.title === "node") {
-  module.exports = { enter, divideBy, isNumeric };
-}
+// if (typeof process !== "undefined" && process.title === "node") {
+//   module.exports = { enter, divideBy, isNumeric };
+// }
