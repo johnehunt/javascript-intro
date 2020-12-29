@@ -10,7 +10,7 @@ let userInput = 11;
 try {
   console.log("Entering try block");
   // Can throw an exception yourself
-  /// exception can be a string, number, boolean, object or instance of class
+  // exception can be a string, number, boolean, object or instance of class
   if (userInput < 10) throw "too low";
   if (userInput > 10) throw "too high";
   console.log("Oh its just right");
